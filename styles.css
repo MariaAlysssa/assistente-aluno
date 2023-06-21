@@ -1,3 +1,55 @@
+@media (max-width: 768px){
+   header{
+    background-color: #15473C;
+    
+   }
+
+   ul{
+    flex-direction: column;
+   }
+ 
+    main{
+       flex-direction: column;
+    }
+    
+    h2{
+       font-size: 38px;
+       flex-direction: column;
+    }
+
+    .img-header{
+        display: none;
+        margin: 0 auto;
+        width: 75px;
+    }
+    img{
+        display: none;
+    }
+
+  
+ }
+
+
+
+ @media(max-width: 730px){
+    nav, ul{
+        flex-direction: column;
+
+    }
+
+    ul{
+        text-align: center;
+    }
+    header{
+        text-align: center;
+    }
+
+    button{
+        display: flex;
+    }
+ }
+
+
 body{
    background-color: #E0F4EF;
    color: black;
@@ -8,7 +60,23 @@ body{
 
 }
 
+
 /*style cabeçalho*/
+button{
+    background-color: transparent;
+    border: none;
+    color: #E0F4EF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(225, 225, 225, 0.2);
+}
 header{
     display: flex;
     flex-direction: row;
@@ -93,28 +161,9 @@ li{
 
 }
 
-/*.acessarNormas.animate-btn{
-    animation: animate-outline 1s ease-out infinite;
-}*/
-
 .acessarNormas-btn:hover{
     background-color: #15473C;
 }
-
-
-
-/*@keyframes animate-outline{
-    from{
-        outline: 0px solid #9cc789;
-
-    }
-    to{
-        outline: 15px solid #cce6c1;
-
-    }
-}*/
-
-/*----------------------------------------*/
 
 /*style parte central da Tela Inicial*/
 main{
@@ -128,7 +177,7 @@ main{
 h2{
     margin-top: 80px;
     font-size: 45px;
-    line-height: 10px;
+    line-height: 18px;
 
 }
 
@@ -141,6 +190,11 @@ p{ /*paragrafo de descrição*/
 
 }
 img{
-    width: 400px;
+    max-width: 100%;
+    width: 350px;
+    position: absolute;
+    left: 65%;
+    top: 18%;
+    
 }
 

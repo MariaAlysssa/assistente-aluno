@@ -30,7 +30,8 @@ body{
     margin: 0 auto;
     padding: 15px;
  
- }
+}
+
 
 .NormasIFAM h3{
     text-align: center;
@@ -147,3 +148,4 @@ body{
 .card-fila2 .cardsAvaliacoes:hover .fonte-Resolucao{
     color: white;
 }
+
