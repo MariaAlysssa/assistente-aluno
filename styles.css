@@ -1,4 +1,4 @@
-@media (max-width: 768px){
+@media (max-width: 770px){
    header{
     background-color: #15473C;
     
@@ -31,7 +31,7 @@
 
 
 
- @media(max-width: 730px){
+ @media(max-width: 770px){
     nav, ul{
         flex-direction: column;
 
