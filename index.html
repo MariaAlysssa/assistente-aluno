@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylemedia" href="/css/media.css">
 
+
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="styles.css">
     
     <title>Assistente do Aluno</title>
@@ -21,9 +21,11 @@
           
         </div>
 
-        <button>&#9776</button>
-
-        <ul>
+        <nav class="menu">
+            <div class="menu-toogle">
+                <div class="hamburguer"></div>
+            </div>
+        <ul class="menu-itens">
             <!--botões cabeçalho-->
             <a href="traducao.html" class="traducao-btn"> <li><b>TRADUÇÃO ENG-EUA</b></li> </a>
             <a href="contatos.html" class="contatos-btn"> <li><b>CONTATOS</b></li> </a>
@@ -31,7 +33,17 @@
             
             
         </ul>
-        
+    </nav>
+    
+  <script>
+    var menuToggle = document.querySelector('.menu-toggle');
+
+    menuToggle.addEventListener('click', function() {
+  this.classList.toggle('open');
+});
+
+  </script>
+
     </header>
 <!--fim cabeçalho-->
 
@@ -42,12 +54,13 @@
             <p>Projeto Integrador com objetivo de sanar as dúvidas dos estudantes e lhes proporcionar entendimento das políticas seguidas no Campus Avançado  Manacapuru. Aqui você poderá ficar sabendo sobre informações importantíssimas, como: <b>Período Letivo</b>, <b>Avaliações</b>, como funcionará o processo de <b>Conclusão do Curso</b>, tutorial sobre o uso do <b>SIGAA</b> e muito mais!!!</p>
             <ul>
                 <a href="acessarNormas.html" class="acessarNormas-btn"> <li><b>Acessar Normas</b></li> </a>
+
             </ul>
         </aside><!---->
 
        <article><!--lado direito imagem-->
 
-        <a href="#"><img src="img/assistencia-ao-aluno__3_-removebg-preview.png" alt="logo"></a>
+        <a href="index.html"><img src="img/assistencia-ao-aluno__3_-removebg-preview.png" alt="logo"></a>
 
         </article><!---->  
     </main>
