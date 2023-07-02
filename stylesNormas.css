@@ -211,7 +211,7 @@ body{
 
 /*--------------------------------------------------------FILEIRA 4------------*/
 
-.AvaliacoesIFAM h4{
+.conclusaoCurso h5{
     text-align: center;
     font-size: 25px;
 }
@@ -221,7 +221,7 @@ body{
     justify-content: center;
 }
 
-.card-fila4 .cardsAvaliacoes{
+.card-fila4 .cardsConclusao{
     background-color: #7dd1bc;
     margin: 15px;
     border-radius: 14px;
@@ -230,14 +230,14 @@ body{
     transition: 0.3s;
 }
 
-.card-fila4 .cardsAvaliacoes img{
+.card-fila4 .cardsConclusao img{
     border-radius: 100%;
     width: 80px;
     display: block;
     margin: 10px auto;
 }
 
-.AvaliacoesIFAM .card-fila4 .nome-Norma{
+.conclusaoCurso .card-fila4 .nome-Norma{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 15px;
@@ -245,26 +245,26 @@ body{
 
 }
 
-.card-fila4 .cardsAvaliacoes .content-Norma{
+.card-fila4 .cardsConclusao .content-Norma{
     font-size: 15px;
     padding: 0 15px;
     transition: 0.3s;
 }
-.card-fila4 .cardsAvaliacoes .fonte-Resolucao{
+.card-fila4 .cardsConclusao .fonte-Resolucao{
     margin: 15px 0;
     font-size: 14px;
     border-top: 2px solid #71767a23;
     transition: 0.3s;
 }
 
-.card-fila4 .cardsAvaliacoes:hover{
+.card-fila4 .cardsConclusao:hover{
     background-color: #15473C;
     margin-top: -5px;
     
 }
-.card-fila4 .cardsAvaliacoes:hover .nome-Norma, 
-.card-fila4 .cardsAvaliacoes:hover .content-Norma,
-.card-fila4 .cardsAvaliacoes:hover .fonte-Resolucao{
+.card-fila4 .cardsConclusao:hover .nome-Norma, 
+.card-fila4 .cardsConclusao:hover .content-Norma,
+.card-fila4 .cardsConclusao:hover .fonte-Resolucao{
     color: white;
 }
 
