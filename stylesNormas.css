@@ -150,3 +150,121 @@ body{
     color: white;
 }
 
+/*--------------------------------------------------------FILEIRA 3------------*/
+
+.AvaliacoesIFAM h4{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-fila3{
+    display: flex;
+    justify-content: center;
+}
+
+.card-fila3 .cardsAvaliacoes{
+    background-color: #7dd1bc;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.card-fila3 .cardsAvaliacoes img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.AvaliacoesIFAM .card-fila3 .nome-Norma{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+
+}
+
+.card-fila3 .cardsAvaliacoes .content-Norma{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.card-fila3 .cardsAvaliacoes .fonte-Resolucao{
+    margin: 15px 0;
+    font-size: 14px;
+    border-top: 2px solid #71767a23;
+    transition: 0.3s;
+}
+
+.card-fila3 .cardsAvaliacoes:hover{
+    background-color: #15473C;
+    margin-top: -5px;
+    
+}
+.card-fila3 .cardsAvaliacoes:hover .nome-Norma, 
+.card-fila3 .cardsAvaliacoes:hover .content-Norma,
+.card-fila3 .cardsAvaliacoes:hover .fonte-Resolucao{
+    color: white;
+}
+
+/*--------------------------------------------------------FILEIRA 4------------*/
+
+.AvaliacoesIFAM h4{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-fila4{
+    display: flex;
+    justify-content: center;
+}
+
+.card-fila4 .cardsAvaliacoes{
+    background-color: #7dd1bc;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.card-fila4 .cardsAvaliacoes img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.AvaliacoesIFAM .card-fila4 .nome-Norma{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+
+}
+
+.card-fila4 .cardsAvaliacoes .content-Norma{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.card-fila4 .cardsAvaliacoes .fonte-Resolucao{
+    margin: 15px 0;
+    font-size: 14px;
+    border-top: 2px solid #71767a23;
+    transition: 0.3s;
+}
+
+.card-fila4 .cardsAvaliacoes:hover{
+    background-color: #15473C;
+    margin-top: -5px;
+    
+}
+.card-fila4 .cardsAvaliacoes:hover .nome-Norma, 
+.card-fila4 .cardsAvaliacoes:hover .content-Norma,
+.card-fila4 .cardsAvaliacoes:hover .fonte-Resolucao{
+    color: white;
+}
+
