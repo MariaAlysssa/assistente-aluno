@@ -129,6 +129,8 @@ body{
 }
 
 
+
+
 /*style cabeçalho*/
 button{
     background-color: transparent;
@@ -216,7 +218,7 @@ li{
 
 .acessarNormas-btn{
     margin-top: 25px ;      /*espaçamento superior*/
-    margin-left: -40px;    /*epaçamento esquerdo*/
+   margin-left: -40px;    /*epaçamento esquerdo*/
     width: 120px;         /*largura*/
     background-color: #72C24E;
     color: white;

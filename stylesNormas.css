@@ -20,6 +20,59 @@
         width: 90%;
         margin-bottom: 10px;
     }
+
+    .card-fila3{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .conclusaoCurso{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+
+    .card-fila4{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .atvComplementar{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .card-fila5{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .cardsDiploma{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .cardsBiblioteca{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .card-fila6{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card-fila7{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
  }
  
 
@@ -268,3 +321,179 @@ body{
     color: white;
 }
 
+/*--------------------------------------------------------FILEIRA 5------------*/
+
+.atvComplementar h6{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-fila5{
+    display: flex;
+    justify-content: center;
+}
+
+.card-fila5 .cardsComplementar{
+    background-color: #7dd1bc;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.card-fila5 .cardsComplementar img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.atvComplementar .card-fila5 .nome-Norma{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+
+}
+
+.card-fila5 .cardsComplementar .content-Norma{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.card-fila5 .cardsComplementar .fonte-Resolucao{
+    margin: 5px 0;
+    font-size: 14px;
+    border-top: 2px solid #71767a23;
+    transition: 0.3s;
+}
+
+.card-fila5 .cardsComplementar:hover{
+    background-color: #15473C;
+    margin-top: -5px;
+    
+}
+.card-fila5 .cardsComplementar:hover .nome-Norma, 
+.card-fila5 .cardsComplementar:hover .content-Norma,
+.card-fila5 .cardsComplementar:hover .fonte-Resolucao{
+    color: white;
+}
+
+/*--------------------------------------------------------FILEIRA 6------------*/
+
+.Biblioteca h6{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-fila6{
+    display: flex;
+    justify-content: center;
+}
+
+.card-fila6 .cardsBiblioteca{
+    background-color: #7dd1bc;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.card-fila6 .cardsBiblioteca img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.Biblioteca .card-fila6 .nome-Norma{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+
+}
+
+.card-fila6 .cardsBiblioteca .content-Norma{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.card-fila6 .cardsBiblioteca .fonte-Resolucao{
+    margin: 15px 0;
+    font-size: 14px;
+    border-top: 2px solid #71767a23;
+    transition: 0.3s;
+}
+
+.card-fila6 .cardsBiblioteca:hover{
+    background-color: #15473C;
+    margin-top: -5px;
+    
+}
+.card-fila6 .cardsBiblioteca:hover .nome-Norma, 
+.card-fila6 .cardsBiblioteca:hover .content-Norma,
+.card-fila6 .cardsBiblioteca:hover.fonte-Resolucao{
+    color: white;
+}
+
+/*--------------------------------------------------------FILEIRA 7------------*/
+
+.diploma h6{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-fila7{
+    display: flex;
+    justify-content: center;
+}
+
+.card-fila7 .cardsDiploma{
+    background-color: #7dd1bc;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+}
+
+.card-fila7 .cardsDiploma img{
+    border-radius: 100%;
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.diploma .card-fila7 .nome-Norma{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+
+}
+
+.card-fila7 .cardsDiploma .content-Norma{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.card-fila7 .cardsDiploma .fonte-Resolucao{
+    margin: 15px 0;
+    font-size: 14px;
+    border-top: 2px solid #71767a23;
+    transition: 0.3s;
+}
+
+.card-fila7 .cardsDiploma:hover{
+    background-color: #15473C;
+    margin-top: -5px;
+    
+}
+.card-fila7 .cardsDiploma:hover .nome-Norma, 
+.card-fila7 .cardsDiploma:hover .content-Norma,
+.card-fila7 .cardsDiploma:hover.fonte-Resolucao{
+    color: white;
+}
